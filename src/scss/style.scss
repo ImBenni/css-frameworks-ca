@@ -1,13 +1,8 @@
-$blue: Blue;
+@import "variables.scss";
 
-h1{
-    color: $blue;
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.navbar-brand, h1, h2{
+    color: $primary;
 }
 
-.test {
-    display: block;
-    
-    &-button {
-        background-color: $blue;
-    }
-}
