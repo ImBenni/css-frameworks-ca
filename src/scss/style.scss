@@ -1,0 +1,13 @@
+$blue: Blue;
+
+h1{
+    color: $blue;
+}
+
+.test {
+    display: block;
+    
+    &-button {
+        background-color: $blue;
+    }
+}
