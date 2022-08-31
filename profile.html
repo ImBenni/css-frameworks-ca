@@ -50,9 +50,28 @@
             </div>            
         </div>
 
-        
+        <div class="mx-auto col-auto border border-1 rounded border-primary mt-3 p-4">
+            <h2 class="text-center">Make a post!</h2>
+            <form class="">
+                <div class="form-group mb-1">
+                  <label for="TitleInput">Title</label>
+                  <input type="text" class="form-control" id="group" aria-describedby="TitleID" placeholder="Enter Title...">
+                </div>
+                <div class="form-group mb-3">
+                    <textarea class="form-control" id="inputcontent" rows="5" placeholder="What's happening?"></textarea>
+                </div>
+
+                <div class="form-group d-flex flex-column mb-3">
+                  <label for="exampleFormControlFile1">Example file input</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Post</button>
+              </form>
+        </div>
+
         <div class="my-3">
-            <h2>Posts</h2>
+            <h2>My Recent Posts</h2>
             <div class="row mb-3">
                 <div class=" col-md-4">
                     <div class="card">
@@ -109,26 +128,7 @@
             </div>
         </div>
 
-        <div class="mx-auto col-auto col-md-8 border border-3 rounded border-primary mt-3 p-4">
-            <h2 class="text-center">What's happening today?</h2>
-            <p class="text-center mb-1">Share your day with everyone!</p>
-            <form class="">
-                <div class="form-group mb-1">
-                  <label for="TitleInput">Title</label>
-                  <input type="text" class="form-control" id="group" aria-describedby="TitleID" placeholder="Enter Title...">
-                </div>
-                <div class="form-group mb-3">
-                    <textarea class="form-control" id="inputcontent" rows="5" placeholder="What's happening?"></textarea>
-                </div>
-
-                <div class="form-group d-flex flex-column mb-3">
-                  <label for="exampleFormControlFile1">Example file input</label>
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                </div>
-    
-                <button type="submit" class="btn btn-primary">Post</button>
-              </form>
-        </div>
+        
                  
     </main>
 
