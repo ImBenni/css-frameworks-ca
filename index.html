@@ -35,13 +35,14 @@
 
         <h1 class="text-center py-2 pb-4"><small class="text-secondary">Welcome to </small><strong>Grace!</strong></h1>
 
-        <div class="container card-group col-12 col-sm-12 justify-content-center">
-            <div class="card m-3 border border-3 border-primary">
+        <h2 class="ps-4">Recent Posts</h2>
+        <div class="container card-group col-12 col-sm-12 justify-content-center ">
+            <div class="card m-3 border border-3 border-primary ">
               <img class="card-img-top pt-2 px-2 rounded" src="./images/card1.jpg" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
-                <p class="card-text ">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Mona Lisa</a></strong></p>         
               </div>
             </div>
             <div class="card m-3 border border-3 border-primary">
@@ -49,7 +50,7 @@
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Da Vinci</a></strong></p>    
               </div>
             </div>
             <div class="card m-3 border border-3 border-primary">
@@ -57,7 +58,7 @@
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Mozart</a></strong></p>    
               </div>
             </div>
           </div>
@@ -66,7 +67,7 @@
 
         <div class="mx-auto col-auto col-md-8 border border-3 rounded border-primary p-5">
             <h2 class="text-center">What's happening today?</h2>
-            <p class="text-center mb-3">Share your day to everyone!</p>
+            <p class="text-center mb-3">Share your day with everyone!</p>
             <form class="">
                 <div class="form-group mb-3">
                   <label for="TitleInput">Title</label>
@@ -75,6 +76,11 @@
                 <div class="form-group mb-3">
                     <textarea class="form-control" id="inputcontent" rows="5" placeholder="What's happening?"></textarea>
                 </div>
+
+                <div class="form-group d-flex flex-column mb-3">
+                  <label for="exampleFormControlFile1">Example file input</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
     
                 <button type="submit" class="btn btn-primary">Post</button>
               </form>
@@ -82,7 +88,7 @@
                  
     </main>
 
-    <footer class="text-center text-lg-start bg-white text-muted mt-auto">
+    <footer class="text-center text-lg-start bg-white text-muted mt-auto pt-5">
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.025);">
           © 2022 Benni
         </div>
