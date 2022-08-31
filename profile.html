@@ -12,10 +12,10 @@
         <nav class="navbar navbar-expand-md navbar-light bg-light p-3 mb-4">
           <div class="container col-10 col-lg-15">
             <a class="navbar-brand" href="index.html"><strong>Grace</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="true" aria-label="Toggle navigation">
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="navbar-collapse collapse show" id="navbarCollapse" style="">
+            <div class="navbar-collapse collapse" id="navbarCollapse" style="">
               <ul class="navbar-nav me-auto mb-2 mb-md-0">
                 <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="profile.html">Profile</a></li>
@@ -32,10 +32,10 @@
       </header>
 
     <main class="container">
-        <div class="container d-flex justify-content-between card-body border border-1 border-primary p-5">
+        <div class="container d-flex justify-content-between card-body border border-1 border-primary p-2">
             <div class="row">
                 <div class="col-auto col-md-12 col-lg-4 d-flex pe-3 text-start"> 
-                    <img src="./images/author.jfif" alt="Admin" class="rounded shadow-sm" width="150" height="150">
+                    <img src="./images/avatar.png" class="rounded shadow-sm" width="150" height="150">
                     <div class="ms-3 mb-5">
                         <h4>Jane Doe</h4>
                         <p class="text-secondary mb-3">The one and only!</p>
@@ -51,10 +51,10 @@
         </div>
 
         
-        <div class="my-5">
+        <div class="my-3">
             <h2>Posts</h2>
             <div class="row mb-3">
-                <div class="col-md-4">
+                <div class=" col-md-4">
                     <div class="card">
                         <img class="card-img-top pt-2 px-2 rounded" src="./images/card1.jpg" alt="Card image cap">
                         <div class="card-body">
@@ -86,34 +86,34 @@
             </div>
         </div>
 
-        <div class="my-5">
+        <div class="my-3">
             <h2>Friends</h2>
                 <div class="row ms-1">
                     <div class="col-auto me-2 mb-2  px-3 pt-1 border border-1 border-secondary text-center">
-                        <h3><a class="link-secondary text-decoration-none" href="">Fred</a></h3>
+                        <strong><a class="link-secondary text-decoration-none" href="">Fred</a></strong>
                     </div> 
                     <div class="col-auto me-2 mb-2 px-3 pt-1 border border-1 border-secondary text-center">
-                        <h3><a class="link-secondary text-decoration-none" href="">Elizabeth</a></h3>
+                        <strong><a class="link-secondary text-decoration-none" href="">Elizabeth</a></strong>
                     </div> 
                     <div class="col-auto me-2 mb-2 px-3 pt-1 border border-1 border-secondary text-center">
-                        <h3><a class="link-secondary text-decoration-none" href="">Jonas</a></h3>
+                        <strong><a class="link-secondary text-decoration-none" href="">Jonas</a></strong>
+                    </div> 
+                    <div class="col-auto me-2 mb-2 px-3 p-1 border border-1 border-secondary text-center">
+                        <strong><a class="link-secondary text-decoration-none" href="">Tyrone</a></strong>
                     </div> 
                     <div class="col-auto me-2 mb-2 px-3 pt-1 border border-1 border-secondary text-center">
-                        <h3><a class="link-secondary text-decoration-none" href="">Tyrone</a></h3>
-                    </div> 
-                    <div class="col-auto me-2 mb-2 px-3 pt-1 border border-1 border-secondary text-center">
-                        <h3><a class="link-secondary text-decoration-none" href="">Chowder</a></h3>
+                        <strong><a class="link-secondary text-decoration-none" href="">Chowder</a></strong>
                     </div> 
                 </div>
                             
             </div>
         </div>
 
-        <div class="mx-auto my-5 col-auto col-md-8 border border-2 rounded border-primary p-5">
+        <div class="mx-auto col-auto col-md-8 border border-3 rounded border-primary mt-3 p-4">
             <h2 class="text-center">What's happening today?</h2>
-            <p class="text-center mb-3">Share your day with everyone!</p>
+            <p class="text-center mb-1">Share your day with everyone!</p>
             <form class="">
-                <div class="form-group mb-3">
+                <div class="form-group mb-1">
                   <label for="TitleInput">Title</label>
                   <input type="text" class="form-control" id="group" aria-describedby="TitleID" placeholder="Enter Title...">
                 </div>
