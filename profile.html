@@ -9,7 +9,7 @@
   </head>
   <body class="d-flex flex-column min-vh-100">
     <header>
-        <nav class="navbar navbar-expand-md navbar-light bg-light p-3 mb-4">
+        <nav class="navbar navbar-expand-md navbar-light border-bottom border-2 border-primary p-3 mb-4">
           <div class="container col-10 col-lg-15">
             <a class="navbar-brand" href="index.html"><strong>Grace</strong></a>
             <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,78 +31,23 @@
         </nav>
       </header>
 
-    <main class="container">
-        <div class="container d-flex justify-content-between card-body border border-1 border-primary p-2">
+    <main class="container col-sm-10 col-lg-5">
+        <div class="container d-flex justify-content-between card-body border border-1 rounded-5 border-primary p-4">
             <div class="row">
-                <div class="col-auto col-md-12 col-lg-4 d-flex pe-3 text-start"> 
-                    <img src="./images/avatar.png" class="rounded shadow-sm" width="150" height="150">
+                <div class="col-auto d-flex pe-3 text-start"> 
+                    <img src="./images/avatar.png" class="rounded-5 shadow-sm" width="150" height="150">
                     <div class="ms-3 mb-5">
                         <h4>Jane Doe</h4>
                         <p class="text-secondary mb-3">The one and only!</p>
-                        <button class="btn btn-primary">Edit</button> 
+                        <button class="btn btn-primary shadow-sm">Edit</button> 
                     </div>
                 </div>
                 
-                <div class="col-auto col-md-12 col-lg-8 ps-3">
+                <div class="col-auto ps-3">
                     <h2>About Me</h2>
                     <p>Lorem ipsum dolor sit amet, est tota omnis bonorum ex. Ad sit aeque aeterno eligendi, quo id utinam vituperata. Nam duis aperiri ne, has labore qualisque cu. Te per principes expetendis consectetuer. Nec tation efficiendi ut. Per doctus electram id, nam ut tota veniam accumsan, habeo menandri postulant his at.</p>
                 </div>
             </div>            
-        </div>
-
-        <div class="mx-auto col-auto border border-1 rounded border-primary mt-3 p-4">
-            <h2 class="text-center">Make a post!</h2>
-            <form class="">
-                <div class="form-group mb-1">
-                  <label for="TitleInput">Title</label>
-                  <input type="text" class="form-control" id="group" aria-describedby="TitleID" placeholder="Enter Title...">
-                </div>
-                <div class="form-group mb-3">
-                    <textarea class="form-control" id="inputcontent" rows="5" placeholder="What's happening?"></textarea>
-                </div>
-
-                <div class="form-group d-flex flex-column mb-3">
-                  <label for="exampleFormControlFile1">Example file input</label>
-                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
-                </div>
-    
-                <button type="submit" class="btn btn-primary">Post</button>
-              </form>
-        </div>
-
-        <div class="my-3">
-            <h2>My Recent Posts</h2>
-            <div class="row mb-3">
-                <div class=" col-md-4">
-                    <div class="card">
-                        <img class="card-img-top pt-2 px-2 rounded" src="./images/card1.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> 
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top pt-2 px-2 rounded" src="./images/card2.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> 
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4">
-                    <div class="card">
-                        <img class="card-img-top pt-2 px-2 rounded" src="./images/card3.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> 
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
 
         <div class="my-3">
@@ -123,12 +68,59 @@
                     <div class="col-auto me-2 mb-2 px-3 pt-1 border border-1 border-secondary text-center">
                         <strong><a class="link-secondary text-decoration-none" href="">Chowder</a></strong>
                     </div> 
-                </div>
-                            
+                </div>        
             </div>
         </div>
 
-        
+        <div class="mx-auto col-auto border border-1 rounded-5 border-primary mt-3 p-5">
+            <h2 class="text-center">Make a post!</h2>
+            <form class="">
+                <div class="form-group mb-1">
+                  <label for="TitleInput">Title</label>
+                  <input type="text" class="form-control" id="group" aria-describedby="TitleID" placeholder="Enter Title...">
+                </div>
+                <div class="form-group mb-3">
+                    <textarea class="form-control" id="inputcontent" rows="5" placeholder="What's happening?"></textarea>
+                </div>
+
+                <div class="form-group d-flex flex-column mb-3">
+                  <label for="exampleFormControlFile1">Upload Image</label>
+                  <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                </div>
+    
+                <button type="submit" class="btn btn-primary">Post</button>
+              </form>
+        </div>
+
+        <div class="my-3">
+            <h2>Recent Posts</h2>
+        <div class="container card-group col-10 col-sm-12 justify-content-center">
+            <div class="card me-2 border border-1 rounded-5 border-primary ">
+              <img class="card-img-top pt-2 px-2 rounded-5" src="./images/card1.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">A short description that sounds detailed, but is in fact, not.</p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Mona Lisa</a></strong></p>         
+              </div>
+            </div>
+            <div class="card mx-2 border border-1 rounded-5 border-primary">
+              <img class="card-img-top pt-2 px-2 rounded-5" src="./images/card2.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">A short description that sounds detailed, but is in fact, not.</p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Da Vinci</a></strong></p>    
+              </div>
+            </div>
+            <div class="card ms-2 border border-1  rounded-5 border-primary">
+              <img class="card-img-top pt-2 px-2 rounded-5" src="./images/card3.jpg" alt="Card image cap">
+              <div class="card-body">
+                <h5 class="card-title">Title</h5>
+                <p class="card-text">A short description that sounds detailed, but is in fact, not.</p>
+                <p class="card-text"><strong><a class="text-decoration-none" href="">Mozart</a></strong></p>    
+              </div>
+            </div>
+          </div>
+        </div>       
                  
     </main>
 
